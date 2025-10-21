@@ -58,9 +58,9 @@ app/
    ```bash
    git clone https://github.com/andreslomelig/ArticleFlow.git
    ```
-Open the project in Android Studio.
-Wait for Gradle synchronization to complete.
-Run the app on an emulator or a physical Android device (API 24+ / Android 7.0+).
+2. Open the project in Android Studio.
+3. Wait for Gradle synchronization to complete.
+4. Run the app on an emulator or a physical Android device (API 24+ / Android 7.0+).
 
 ## Architecture
 The app follows the MVVM (Model - View - ViewModel) architecture pattern:
