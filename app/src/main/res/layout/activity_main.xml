@@ -21,5 +21,6 @@
         app:tint="@android:color/white"
         app:layout_anchor="@id/rvProducts"
         app:layout_anchorGravity="bottom|end"
+        app:backgroundTint="#7B1FA2"
         android:layout_margin="16dp"/>
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
