@@ -69,8 +69,8 @@ The app follows the MVVM (Model - View - ViewModel) architecture pattern:
 - ViewModel: ProductViewModel connects the UI with the database using Kotlin coroutines and LiveData.
 
 
-##Authors
--Andres
--Atzin
--Arturo
+## Authors
+- Andrés Lomelí
+- Atzin Cruz
+- Arturo Reza
 
