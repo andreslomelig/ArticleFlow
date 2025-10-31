@@ -2,22 +2,28 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:fillViewport="true"
+    android:background="@color/background"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
     <LinearLayout
         android:padding="16dp"
         android:layout_width="match_parent"
+        android:background="@color/primary"
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="@color/secondary"
+            android:textColorHint="@color/white"
             android:hint="Nombre">
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/etName"
                 android:layout_width="match_parent"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="20sp"
                 android:layout_height="wrap_content"/>
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -25,10 +31,14 @@
             android:layout_marginTop="12dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="@color/secondary"
+            android:textColorHint="@color/white"
             android:hint="Precio">
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/etPrice"
                 android:inputType="numberDecimal"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="20sp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
         </com.google.android.material.textfield.TextInputLayout>
@@ -37,10 +47,14 @@
             android:layout_marginTop="12dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="@color/secondary"
+            android:textColorHint="@color/white"
             android:hint="Cantidad disponible">
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/etQuantity"
                 android:inputType="number"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="20sp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
         </com.google.android.material.textfield.TextInputLayout>
@@ -51,6 +65,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Guardar"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="24sp"
+            app:backgroundTint="@color/buttons"
             app:icon="@android:drawable/ic_menu_save"
             app:iconGravity="textStart"/>
     </LinearLayout>
